@@ -4,13 +4,13 @@
 
 # One Emoji, One Dream Vacation
 
-One line, 112 characters: one emoji carrying one dream vacation — entered in the [make.fun bounty](https://make.fun/c/u-grand-elephant-19-one-emoji-one-dream-vacation-62879a35).
+One emoji, nothing else: a single desert island standing in for one dream vacation — entered in the [make.fun bounty](https://make.fun/c/u-grand-elephant-19-one-emoji-one-dream-vacation-62879a35).
 
 ## The entry
 
-> 🏝️ Barefoot on a white-sand Maldives atoll, turquoise water to the horizon, nothing on the calendar but sunset.
+> 🏝
 
-112 characters, one line, exactly one emoji. The 🏝️ does the dreaming — a desert island, the universal shorthand for escape — and the line paints the picture: bare feet on white sand, turquoise water all the way to the horizon, and a calendar with nothing on it but sunset.
+One code point (U+1F3DD DESERT ISLAND), 4 bytes, no variation selector, no words. The 🏝 does all the dreaming — a desert island, the universal shorthand for escape: white sand, a palm, turquoise water to the horizon, and a calendar with nothing on it. The bare code point keeps the entry at the smallest possible size, which wins the smaller-text tie-break.
 
 ## Run
 
@@ -18,4 +18,4 @@ One line, 112 characters: one emoji carrying one dream vacation — entered in t
 node main.ts   # writes the entry to /output/entry.txt
 ```
 
-`main.ts` writes the line to `/output/entry.txt` and enforces the gate itself: 1–120 characters, a single non-blank line, exactly one emoji.
+`main.ts` writes the single emoji to `/output/entry.txt` and enforces the gate itself: 1–8 characters, exactly one emoji, no variation selector, no words.
