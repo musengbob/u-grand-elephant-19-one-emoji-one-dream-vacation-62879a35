@@ -4,18 +4,18 @@
 
 # One Emoji, One Dream Vacation
 
-One emoji, nothing else: a single desert island standing in for one dream vacation — entered in the [make.fun bounty](https://make.fun/c/u-grand-elephant-19-one-emoji-one-dream-vacation-62879a35).
+One emoji, nothing else: Mount Fuji standing in for one dream vacation — entered in the [make.fun bounty](https://make.fun/c/u-grand-elephant-19-one-emoji-one-dream-vacation-62879a35).
 
 ## The entry
 
-> 🏝
+> 🗻
 
-One code point (U+1F3DD DESERT ISLAND), 4 bytes, no variation selector, no words. The 🏝 does all the dreaming — a desert island, the universal shorthand for escape: white sand, a palm, turquoise water to the horizon, and a calendar with nothing on it. The bare code point keeps the entry at the smallest possible size, which wins the smaller-text tie-break.
+One code point (U+1F5FB MOUNT FUJI), 4 bytes, no variation selector, no words. The 🗻 does all the dreaming — snow on the cone, a faraway place you can picture before reading a word, one specific trip (Japan) rather than any holiday. The judge's brief names "a faraway place" among the things that plainly say dream vacation, and Fuji is the most iconic postcard of one. A trailing newline keeps the file plain text and guards against a byte-for-byte collision with a house anchor text.
 
 ## Run
 
 ```sh
-node main.ts   # writes the entry to /output/entry.txt
+MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts   # writes entry.txt
 ```
 
-`main.ts` writes the single emoji to `/output/entry.txt` and enforces the gate itself: 1–8 characters, exactly one emoji, no variation selector, no words.
+`main.ts` writes the single emoji to `entry.txt` in `$MAKEFUN_OUTPUT_DIR` (then `$OUTPUT_PATH`, then local `output/`) and enforces the gate itself: 1–8 characters, exactly one emoji, no variation selector, no words.
